@@ -1,2 +1,4 @@
 # Smooth_RN_Books
-React_Native= 기초 책
+
+#### 리액트 네이티브 프로젝트 생성
+- react-native init AppName
