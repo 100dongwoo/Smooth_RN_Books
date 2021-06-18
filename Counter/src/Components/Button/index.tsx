@@ -1,5 +1,8 @@
+// @ts-ignore
 import React from 'react';
+// @ts-ignore
 import Styled from 'styled-components/native';
+
 const Container = Styled.TouchableOpacity``;
 const Icon = Styled.Image``;
 
@@ -21,4 +24,5 @@ const Button = ({iconName, onPress}: Props) => {
     </Container>
   );
 };
+// @ts-ignore
 export default Button;
