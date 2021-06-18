@@ -1,4 +1,4 @@
-# Smooth_RN_Books
+# 스무디 한잔 마시며 끝내는 React Native
 
 ### 라이브러리 ,모듈들 버전 고정
 - npm config set save-exact=true
