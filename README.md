@@ -12,6 +12,7 @@
 
 <hr/>
 ### Component
+
 - SafeAreaView : 상태 바와 홈 버튼 영역에는 콘텐츠 표시X
 - View : 상태 바 홈버튼 영역 까지 콘텐츠 표시
 - Fragment : 사용시 에러 없이 복수 노드의 컴포넌트 반환 가능
@@ -19,6 +20,7 @@
 - 
 <hr/>
 ### Styling
+
 * StyleSheet.create
   * <View style={style.container>
   * 스타일 객체할당
@@ -33,7 +35,9 @@
   
 <hr/>
 ### Typescript
+ 
 - reactnative init AppName --template typescript
   
 ### 절대경로 컴포넌트 추가하는법
+ 
 - 
