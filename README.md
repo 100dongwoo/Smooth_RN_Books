@@ -19,12 +19,12 @@
 - Text : 글자를 표현하기위해서는 반드시 사용
 - 
 <hr/>
-### Styling
 
+### Styling
 * StyleSheet.create
-  * <View style={style.container>
   * 스타일 객체할당
-  
+  * <View style={style.container}>
+ 
 + 직접 스타일 객체를 인라인으로 넣는 방법
   + <VIew style={{backgroundColor:"red">
 
@@ -34,10 +34,16 @@
   * const Views= Styled.View`Background:red`;
   
 <hr/>
+
 ### Typescript
- 
 - reactnative init AppName --template typescript
   
 ### 절대경로 컴포넌트 추가하는법
- 
-- 
+- npm install --save-dev babel-plugin-root-import
+- babel.config.js 파일 수정
+- 타입스크립트의 설정에서도 절대경로 설정위해서 tsconfig.json수정
+- import App form '~/App' 와 같은 형식으로 바뀐다.
+
+### 개발자 메뉴
+- IOS => Ctrl + D
+- Android => Ctrl + M
