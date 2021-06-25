@@ -1,5 +1,6 @@
 import React, {createContext, useState, useEffect} from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
+import {Text} from 'react-native';
 
 interface Props {
   children: JSX.Element | Array<JSX.Element>;

@@ -9,6 +9,8 @@
 ### Ch6 : Context - AsyncStorage
 - 앱 종료되거나 디시 실행시 Props와 State, Context 값 사라짐
 - 앱 종료 후 다시 실행해도 데이터 사라지지 않게 유지하기 위해 AsyncStorage 사용
+- npm install --save @react-native-community/async-storage  (0.60 이후 버전)
+- AsyncStorage의 setItem을 사용하면 키 값 형태로 데이터를 관리 JSON.stringfy 함수를 사용하여 문자열로 변경하여 저장해야함
 
 <hr/>
 
@@ -48,3 +50,7 @@
 ### 개발자 메뉴
 - IOS => Ctrl + D
 - Android => Ctrl + M
+
+<hr/>
+- npm install --save styled-components
+- npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
