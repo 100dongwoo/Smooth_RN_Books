@@ -10,7 +10,7 @@ interface Props {}
 const App = ({}: Props) => {
   return (
     <Container>
-      <Text>asdaasdsadsad</Text>
+      <Text>시!!</Text>
     </Container>
   );
 };
