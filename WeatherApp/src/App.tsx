@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import Styled from 'styled-components/native';
 import WeatherView from '~/Screens/WeatherView';
 const Container = Styled.View`

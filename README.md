@@ -52,5 +52,6 @@
 - Android => Ctrl + M
 
 <hr/>
+
 - npm install --save styled-components
 - npm install --save-dev typescript @types/react @types/react-native @types/styled-components babel-plugin-root-import
