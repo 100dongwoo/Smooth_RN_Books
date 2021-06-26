@@ -14,6 +14,30 @@
 
 <hr/>
 
+### ch7 : 영화 소개 앱 - 내비게이션과 앱
+#### generator-rn-toolbox는 Deprecated 되었고, 새롭게 react-native-make을 만들어 제공
+* 앱 아이콘과 스플래시 스크린 이미지 적용 generator-rn-toolbox
+  * npm install -g yo generator-rn-toolbox
+  * choco install imagemagick
+  * yo rn-toolbox:assets --icon ./src/Assets/Images/app_icon.png
+
+<hr/>
+
+###  react-native-make 설치  (앱 아이콘) 1024x1024 px 필요
+  * npm install --save-dev @bam.tech/react-native-make
+  * react-native set-icon --path ./src/Assets/images/app_icon.png --background "#FFFFFF"
+
+###  react-native-make 설치  (스플래시 스크린 이미지) 3000*3000 이상 필요
+* psd파일 생성
+  * [psd생성사이트] (https://www.photopea.com)
+  * react-native set-splash --path [path-to-image] --resize [contain|cover|center] --background ["background-color"]
+  * react-native set-splash --path ./src/Assets/images/app_splash.png --resize center --background "#FFFFFF"
+  
+* 순서 (react-native-splash-screen)
+  * npm install --save react-native-splash-screen
+  * choco install imagemagick
+  * react-native set-icon --path ./src/Assets/images/app_icon.jpg --background "#FFFFFF"
+  
 ###Component
 
 - SafeAreaView : 상태 바와 홈 버튼 영역에는 콘텐츠 표시X
