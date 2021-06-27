@@ -39,6 +39,13 @@
 
 - npm install --save @react-native-community/async-storage  (0.60 이후 버전)
 - npm install --save @react-navigation react-native-gesture-handler react-native-reanimated (내비게이션)
+
+<hr/>
+
+- createSwitchNavigation : 로그인여부 판단 로그인 여부에 따라 보여줄 화면을 전환하기 위한 내비게이션
+- createStackNavigation : 영화 리스트 화면에서 영화를 선택하면 영화의 상세페이지를 보여주기 위해 사용
+- createAppContainer : 내비게이션을 다루기 위한 State 링크등을 관리
+
 ###Component
 
 - SafeAreaView : 상태 바와 홈 버튼 영역에는 콘텐츠 표시X

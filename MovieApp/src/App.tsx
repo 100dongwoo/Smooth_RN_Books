@@ -1,17 +1,14 @@
 import React from 'react';
-// @ts-ignore
-import Styled from 'styled-components/native';
-import {Text} from 'react-native';
-const Container = Styled.View`
-    flex:1;
-    background-color:#eee;z
-`;
-interface Props {}
-const App = ({}: Props) => {
+import {StatusBar} from 'react-native';
+import Navigator from '~/Screens/Navigator';
+
+import {UserContextProvider} from '~/Context/User';
+const App = () => {
   return (
-    <Container>
-      <Text>시!!</Text>
-    </Container>
+    <UserContextProvider>
+      <StatusBar barStyle="light-content" />
+      <Navigator />
+    </UserContextProvider>
   );
 };
 export default App;
