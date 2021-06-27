@@ -4,7 +4,7 @@ import Styled from 'styled-components/native';
 import {Text} from 'react-native';
 const Container = Styled.View`
     flex:1;
-    background-color:#eee;
+    background-color:#eee;z
 `;
 interface Props {}
 const App = ({}: Props) => {

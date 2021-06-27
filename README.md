@@ -14,6 +14,7 @@
 
 <hr/>
 
+
 ### ch7 : 영화 소개 앱 - 내비게이션과 앱
 #### generator-rn-toolbox는 Deprecated 되었고, 새롭게 react-native-make을 만들어 제공
 * 앱 아이콘과 스플래시 스크린 이미지 적용 generator-rn-toolbox
@@ -35,9 +36,9 @@
   
 * 순서 (react-native-splash-screen)
   * npm install --save react-native-splash-screen
-  * choco install imagemagick
-  * react-native set-icon --path ./src/Assets/images/app_icon.jpg --background "#FFFFFF"
-  
+
+- npm install --save @react-native-community/async-storage  (0.60 이후 버전)
+- npm install --save @react-navigation react-native-gesture-handler react-native-reanimated (내비게이션)
 ###Component
 
 - SafeAreaView : 상태 바와 홈 버튼 영역에는 콘텐츠 표시X
